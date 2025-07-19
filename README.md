@@ -1,7 +1,7 @@
 # ERC-1271: Enabling Smart Contracts to Validate Signatures
 
 ## Introduction
-ERC-1271, or Ethereum Improvement Proposal 1271, is a standard that empowers smart contracts on the Ethereum blockchain to verify signatures for off-chain messages. Unlike regular Ethereum accounts (Externally Owned Accounts, or EOAs), which use private keys to sign messages, smart contracts lack private keys and canâ€™t sign messages directly. ERC-1271 solves this by providing a standard way for smart contracts to check if a signature is valid, allowing them to participate in applications like decentralized exchanges (DEXs), Sign-In With Ethereum (SIWE), and multi-signature wallets. This presentation explains ERC-1271, its key function, why it matters, and how itâ€™s used, all in a clear and approachable way.
+ERC-1271, or Ethereum Improvement Proposal 1271, is a standard that empowers smart contracts on the Ethereum blockchain to verify signatures for off-chain messages. Unlike regular Ethereum accounts (Externally Owned Accounts, or EOAs), which use private keys to sign messages, smart contracts lack private keys and can't sign messages directly. ERC-1271 solves this by providing a standard way for smart contracts to check if a signature is valid, allowing them to participate in applications like decentralized exchanges (DEXs), Sign-In With Ethereum (SIWE), and multi-signature wallets. This presentation explains ERC-1271, its key function, why it matters, and how itâ€™s used, all in a clear and approachable way.
 
 ## Why ERC-1271 Matters
 Ethereum has two types of accounts:
